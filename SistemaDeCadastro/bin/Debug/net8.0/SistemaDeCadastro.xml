@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SistemaDeCadastro</name>
+    </assembly>
+    <members>
+        <member name="M:SistemaDeCadastro.Controllers.ProductController.GetAllProducts">
+            <summary>
+            Obtém todos os produtos
+            </summary>
+            <returns>Uma lista de produtos</returns>
+        </member>
+        <member name="M:SistemaDeCadastro.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            Obtém um produto pelo ID
+            </summary>
+            <param name="id">O ID do produto.</param>
+            <returns>O produto correspondente ao ID.</returns>
+        </member>
+        <member name="M:SistemaDeCadastro.Controllers.ProductController.CreateProduct(SistemaDeCadastro.Models.ModelsDTO.RequestProductDTO)">
+            <summary>
+            Criar um novo produto
+            </summary>
+            <param name="requestProductDTO">Os dados do produto a ser criado.</param>
+            <returns>O produto criado.</returns>
+        </member>
+        <member name="M:SistemaDeCadastro.Controllers.ProductController.UpdateProduct(System.Int32,SistemaDeCadastro.Models.ModelsDTO.RequestProductDTO)">
+            <summary>
+            Atualizar um produto existente
+            </summary>
+            <param name="id">O ID do produto a ser atualizado.</param>
+            <param name="requestProductDTO">Dados atualizados do produto.</param>
+            <returns>O produto atualizado.</returns>
+        </member>
+        <member name="M:SistemaDeCadastro.Controllers.ProductController.DeleteProduct(System.Int32)">
+            <summary>
+            Deletar um produto
+            </summary>
+            <param name="id">O ID do produto a ser deletado.</param>
+            <returns>Uma resposta indicando a exclusão.</returns>
+        </member>
+        <member name="F:SistemaDeCadastro.Enum.Acesso.Admin">
+            <summary>
+            Acesso total ao sistema
+            </summary>
+        </member>
+        <member name="F:SistemaDeCadastro.Enum.Acesso.Regular">
+            <summary>
+            Acesso comum ao sistema
+            </summary>
+        </member>
+        <member name="T:SistemaDeCadastro.Migrations.initialDB">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.initialDB.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.initialDB.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.initialDB.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SistemaDeCadastro.Migrations.addUser">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.addUser.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.addUser.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.addUser.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
