@@ -49,6 +49,11 @@
             Acesso comum ao sistema
             </summary>
         </member>
+        <member name="F:SistemaDeCadastro.Enum.Acesso.SemAcesso">
+            <summary>
+            Usuário sem acesso
+            </summary>
+        </member>
         <member name="T:SistemaDeCadastro.Migrations.initialDB">
             <inheritdoc />
         </member>
@@ -71,6 +76,30 @@
             <inheritdoc />
         </member>
         <member name="M:SistemaDeCadastro.Migrations.addUser.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SistemaDeCadastro.Migrations.NewAtributes">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.NewAtributes.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.NewAtributes.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.NewAtributes.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:SistemaDeCadastro.Migrations.auditorias_jwt">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.auditorias_jwt.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.auditorias_jwt.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:SistemaDeCadastro.Migrations.auditorias_jwt.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
     </members>

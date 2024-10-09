@@ -14,11 +14,37 @@ namespace SistemaDeCadastro.Repositories
 
         private readonly AppDbContext _context;
         private readonly UserMapper _mapper;
+        private readonly IHttpContextAccessor _httpContexAcessor;
 
-        public UserRepository(AppDbContext context)
+        public UserRepository(AppDbContext context, IHttpContextAccessor httpContexAcessor)
         {
             _context = context;
             _mapper = new UserMapper();
+            _httpContexAcessor = httpContexAcessor;
+        }
+
+        public async Task<UserModel> RemoverAcesso(int id)
+        {
+            UserModel user = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
+            
+            if (user == null) 
+            {
+                Log.Error("Usuário não existe");
+            }
+
+            var alteracaoPor = _httpContexAcessor.HttpContext?.User.Identity.Name;
+
+            if(user.acesso == Enum.Acesso.Regular)
+            {
+                user.acesso = Enum.Acesso.SemAcesso;
+                user.DateAlteration = DateTime.Now;
+                user.UltimaAlteracaoPor = alteracaoPor;
+
+
+                await _context.SaveChangesAsync();
+            }
+
+            return user;
         }
 
         public async Task<ResponseUserDTO> Criar(RequestUserDTO requestUserDTO)
@@ -27,6 +53,8 @@ namespace SistemaDeCadastro.Repositories
 
             UserModel userCreateModel = _mapper.MapToModel(requestUserDTO);
 
+            ConfigureUser(userCreateModel);
+            
             await _context.Users.AddAsync(userCreateModel);
 
             await _context.SaveChangesAsync();
@@ -52,6 +80,36 @@ namespace SistemaDeCadastro.Repositories
             ResponseUserDTO responseUserDTO = _mapper.MapToResponse(userModel);
             return responseUserDTO;
 
+        }
+
+        public async Task<UserModel> GetUserByUserNameAsync(string userName)
+        {
+
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+        }
+
+        private string GenerateRandomMatricula()
+        {
+            Random random = new Random();
+
+            int minValue = 100000;
+            int maxValue = 999999;
+
+            if (minValue > maxValue)
+                throw new ArgumentOutOfRangeException("minValue", "O valor mínimo não pode ser maior ou igual ao valor máximo.");
+
+            int matricula = random.Next(minValue, maxValue + 1);
+
+            return matricula.ToString();
+        }
+
+        private void ConfigureUser(UserModel user)
+        {
+            var alteracaoPor = _httpContexAcessor.HttpContext?.User.Identity.Name;
+
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+            user.Matricula = GenerateRandomMatricula();
+            user.UltimaAlteracaoPor = alteracaoPor;
         }
     }
 }

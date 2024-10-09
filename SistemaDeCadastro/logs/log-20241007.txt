@@ -3085,3 +3085,1203 @@ WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
 2024-10-07 13:49:08.602 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
 2024-10-07 13:49:08.605 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (2ms).
 2024-10-07 13:49:08.607 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/User - 201 null application/json; charset=utf-8 28660.5416ms
+2024-10-07 13:53:45.516 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 13:53:45.741 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 13:53:45.924 -03:00 [DBG] Hosting starting
+2024-10-07 13:53:46.277 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 13:53:46.281 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 13:53:46.283 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 13:53:46.285 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 13:53:46.287 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 13:53:46.373 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 13:53:46.375 -03:00 [INF] Hosting environment: Development
+2024-10-07 13:53:46.376 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 13:53:46.378 -03:00 [DBG] Hosting started
+2024-10-07 13:53:46.671 -03:00 [DBG] Connection id "0HN76U2E30B0T" received FIN.
+2024-10-07 13:53:46.682 -03:00 [DBG] Connection id "0HN76U2E30B0T" accepted.
+2024-10-07 13:53:46.685 -03:00 [DBG] Connection id "0HN76U2E30B0T" started.
+2024-10-07 13:53:46.699 -03:00 [DBG] Connection id "0HN76U2E30B0T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:53:46.703 -03:00 [DBG] Connection id "0HN76U2E30B0T" disconnecting.
+2024-10-07 13:53:46.709 -03:00 [DBG] Connection id "0HN76U2E30B0T" stopped.
+2024-10-07 13:53:48.526 -03:00 [DBG] Connection id "0HN76U2E30B0U" accepted.
+2024-10-07 13:53:48.553 -03:00 [DBG] Connection id "0HN76U2E30B0U" started.
+2024-10-07 13:53:48.573 -03:00 [DBG] Connection id "0HN76U2E30B0V" accepted.
+2024-10-07 13:53:48.597 -03:00 [DBG] Connection id "0HN76U2E30B0V" started.
+2024-10-07 13:53:48.665 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 13:53:49.022 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 13:53:49.055 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 13:53:49.057 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 13:53:49.206 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 13:53:49.211 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 13:53:49.243 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 13:53:49.245 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 13:53:49.252 -03:00 [DBG] Connection id "0HN76U2E30B0U" completed keep alive response.
+2024-10-07 13:53:49.257 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 602.3562ms
+2024-10-07 13:53:49.344 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 13:53:49.353 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 13:53:49.357 -03:00 [DBG] Connection id "0HN76U2E30B0U" completed keep alive response.
+2024-10-07 13:53:49.362 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 19.0964ms
+2024-10-07 13:53:49.639 -03:00 [DBG] Connection id "0HN76U2E30B0V" completed keep alive response.
+2024-10-07 13:53:49.700 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 346.5457ms
+2024-10-07 13:53:49.742 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 13:53:49.753 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 13:53:49.759 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 13:53:50.112 -03:00 [DBG] Connection id "0HN76U2E30B0V" completed keep alive response.
+2024-10-07 13:53:50.118 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 375.8159ms
+2024-10-07 13:53:52.493 -03:00 [DBG] Connection id "0HN76U2E30B0V" received FIN.
+2024-10-07 13:53:52.494 -03:00 [DBG] Connection id "0HN76U2E30B0U" received FIN.
+2024-10-07 13:53:52.498 -03:00 [DBG] Connection id "0HN76U2E30B0V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:53:52.499 -03:00 [DBG] Connection id "0HN76U2E30B0U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:53:52.500 -03:00 [DBG] Connection id "0HN76U2E30B0V" disconnecting.
+2024-10-07 13:53:52.507 -03:00 [DBG] Connection id "0HN76U2E30B0U" disconnecting.
+2024-10-07 13:53:52.509 -03:00 [DBG] Connection id "0HN76U2E30B0V" stopped.
+2024-10-07 13:53:52.513 -03:00 [DBG] Connection id "0HN76U2E30B0U" stopped.
+2024-10-07 13:53:56.368 -03:00 [DBG] Connection id "0HN76U2E30B10" accepted.
+2024-10-07 13:53:56.370 -03:00 [DBG] Connection id "0HN76U2E30B10" started.
+2024-10-07 13:53:56.373 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/User/1 - null null
+2024-10-07 13:53:56.380 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User/1'
+2024-10-07 13:53:56.386 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)' with route pattern 'api/User/{id}' is valid for the request path '/api/User/1'
+2024-10-07 13:53:56.388 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)'
+2024-10-07 13:53:56.392 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 13:53:56.396 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)'
+2024-10-07 13:53:56.426 -03:00 [INF] Route matched with {action = "GetById", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetById(Int32) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 13:53:56.432 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 13:53:56.434 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 13:53:56.436 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 13:53:56.438 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 13:53:56.439 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 13:53:56.442 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 13:53:56.697 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-07 13:53:56.717 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 13:53:56.723 -03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-10-07 13:53:56.727 -03:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-10-07 13:53:56.728 -03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-07 13:53:56.730 -03:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-10-07 13:53:56.733 -03:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-10-07 13:53:56.736 -03:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-10-07 13:53:57.200 -03:00 [DBG] Entity Framework Core 8.0.8 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.39-mysql 
+2024-10-07 13:53:57.229 -03:00 [DBG] Compiling query expression: 
+'DbSet<UserModel>()
+    .FirstOrDefault(x => x.Id == __id_0)'
+2024-10-07 13:53:57.406 -03:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<UserModel>(
+    asyncEnumerable: new SingleQueryingEnumerable<UserModel>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: UserModel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: UserModel.PasswordHash (string) Required, 1], [Property: UserModel.UserName (string) Required, 2], [Property: UserModel.acesso (Acesso) Required, 3] }
+            SELECT TOP(1) u.Id, u.PasswordHash, u.UserName, u.acesso
+            FROM Users AS u
+            WHERE u.Id == @__id_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserModel>, 
+        SistemaDeCadastro.Data.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-10-07 13:53:57.444 -03:00 [DBG] Creating DbConnection.
+2024-10-07 13:53:57.450 -03:00 [DBG] Created DbConnection. (4ms).
+2024-10-07 13:53:57.454 -03:00 [DBG] Opening connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 13:53:57.505 -03:00 [DBG] Opened connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 13:53:57.510 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-07 13:53:57.516 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-10-07 13:53:57.530 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (19ms).
+2024-10-07 13:53:57.539 -03:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`PasswordHash`, `u`.`UserName`, `u`.`acesso`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__id_0
+LIMIT 1
+2024-10-07 13:53:57.584 -03:00 [INF] Executed DbCommand (45ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`PasswordHash`, `u`.`UserName`, `u`.`acesso`
+FROM `Users` AS `u`
+WHERE `u`.`Id` = @__id_0
+LIMIT 1
+2024-10-07 13:53:57.619 -03:00 [DBG] Context 'AppDbContext' started tracking 'UserModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 13:53:57.643 -03:00 [DBG] Closing data reader to 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 13:53:57.654 -03:00 [DBG] A data reader for 'CadastroProductsDB' on server 'localhost' is being disposed after spending 63ms reading results.
+2024-10-07 13:53:57.660 -03:00 [DBG] Closing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 13:53:57.664 -03:00 [DBG] Closed connection to database 'CadastroProductsDB' on server 'localhost' (4ms).
+2024-10-07 13:53:57.670 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-07 13:53:57.674 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-07 13:53:57.675 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-07 13:53:57.676 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-07 13:53:57.678 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-07 13:53:57.681 -03:00 [INF] Executing OkObjectResult, writing value of type 'SistemaDeCadastro.Models.ModelsDTO.ResponseUserDTO'.
+2024-10-07 13:53:57.695 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro) in 1250.4821ms
+2024-10-07 13:53:57.700 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)'
+2024-10-07 13:53:57.704 -03:00 [DBG] Connection id "0HN76U2E30B10" completed keep alive response.
+2024-10-07 13:53:57.709 -03:00 [DBG] 'AppDbContext' disposed.
+2024-10-07 13:53:57.717 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 13:53:57.721 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (3ms).
+2024-10-07 13:53:57.724 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/User/1 - 200 null application/json; charset=utf-8 1350.6427ms
+2024-10-07 13:54:04.502 -03:00 [DBG] Connection id "0HN76U2E30B10" received FIN.
+2024-10-07 13:54:04.520 -03:00 [DBG] Connection id "0HN76U2E30B10" disconnecting.
+2024-10-07 13:54:04.524 -03:00 [DBG] Connection id "0HN76U2E30B10" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:54:04.545 -03:00 [DBG] Connection id "0HN76U2E30B10" stopped.
+2024-10-07 13:54:12.562 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 13:54:12.718 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 13:54:12.806 -03:00 [DBG] Hosting starting
+2024-10-07 13:54:13.018 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 13:54:13.021 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 13:54:13.023 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 13:54:13.025 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 13:54:13.026 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 13:54:13.102 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 13:54:13.103 -03:00 [INF] Hosting environment: Development
+2024-10-07 13:54:13.104 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 13:54:13.105 -03:00 [DBG] Hosting started
+2024-10-07 13:54:13.155 -03:00 [DBG] Connection id "0HN76U2LVIL46" received FIN.
+2024-10-07 13:54:13.155 -03:00 [DBG] Connection id "0HN76U2LVIL47" received FIN.
+2024-10-07 13:54:13.170 -03:00 [DBG] Connection id "0HN76U2LVIL47" accepted.
+2024-10-07 13:54:13.170 -03:00 [DBG] Connection id "0HN76U2LVIL46" accepted.
+2024-10-07 13:54:13.172 -03:00 [DBG] Connection id "0HN76U2LVIL46" started.
+2024-10-07 13:54:13.172 -03:00 [DBG] Connection id "0HN76U2LVIL47" started.
+2024-10-07 13:54:13.183 -03:00 [DBG] Connection id "0HN76U2LVIL47" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:54:13.183 -03:00 [DBG] Connection id "0HN76U2LVIL46" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:54:13.186 -03:00 [DBG] Connection id "0HN76U2LVIL47" disconnecting.
+2024-10-07 13:54:13.186 -03:00 [DBG] Connection id "0HN76U2LVIL46" disconnecting.
+2024-10-07 13:54:13.190 -03:00 [DBG] Connection id "0HN76U2LVIL46" stopped.
+2024-10-07 13:54:13.190 -03:00 [DBG] Connection id "0HN76U2LVIL47" stopped.
+2024-10-07 13:54:14.181 -03:00 [DBG] Connection id "0HN76U2LVIL48" accepted.
+2024-10-07 13:54:14.192 -03:00 [DBG] Connection id "0HN76U2LVIL49" accepted.
+2024-10-07 13:54:14.193 -03:00 [DBG] Connection id "0HN76U2LVIL48" started.
+2024-10-07 13:54:14.196 -03:00 [DBG] Connection id "0HN76U2LVIL49" started.
+2024-10-07 13:54:14.255 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 13:54:14.429 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 13:54:14.487 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 13:54:14.491 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 13:54:14.621 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 13:54:14.623 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 13:54:14.642 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 13:54:14.644 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 13:54:14.649 -03:00 [DBG] Connection id "0HN76U2LVIL48" completed keep alive response.
+2024-10-07 13:54:14.653 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 407.1903ms
+2024-10-07 13:54:14.726 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 13:54:14.735 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 13:54:14.742 -03:00 [DBG] Connection id "0HN76U2LVIL48" completed keep alive response.
+2024-10-07 13:54:14.754 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 27.4259ms
+2024-10-07 13:54:14.796 -03:00 [DBG] Connection id "0HN76U2LVIL49" completed keep alive response.
+2024-10-07 13:54:14.799 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.1292ms
+2024-10-07 13:54:14.873 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 13:54:14.877 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 13:54:14.878 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 13:54:15.105 -03:00 [DBG] Connection id "0HN76U2LVIL49" completed keep alive response.
+2024-10-07 13:54:15.108 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 234.1743ms
+2024-10-07 13:54:17.301 -03:00 [DBG] Connection id "0HN76U2LVIL48" received FIN.
+2024-10-07 13:54:17.302 -03:00 [DBG] Connection id "0HN76U2LVIL49" received FIN.
+2024-10-07 13:54:17.306 -03:00 [DBG] Connection id "0HN76U2LVIL48" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:54:17.309 -03:00 [DBG] Connection id "0HN76U2LVIL49" disconnecting.
+2024-10-07 13:54:17.312 -03:00 [DBG] Connection id "0HN76U2LVIL48" disconnecting.
+2024-10-07 13:54:17.319 -03:00 [DBG] Connection id "0HN76U2LVIL49" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 13:54:17.335 -03:00 [DBG] Connection id "0HN76U2LVIL48" stopped.
+2024-10-07 13:54:17.345 -03:00 [DBG] Connection id "0HN76U2LVIL49" stopped.
+2024-10-07 15:41:43.517 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 15:41:43.673 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 15:41:43.734 -03:00 [DBG] Hosting starting
+2024-10-07 15:41:43.881 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 15:41:43.883 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 15:41:43.884 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 15:41:43.884 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 15:41:43.885 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 15:41:43.931 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 15:41:43.933 -03:00 [INF] Hosting environment: Development
+2024-10-07 15:41:43.935 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 15:41:43.936 -03:00 [DBG] Hosting started
+2024-10-07 15:41:44.354 -03:00 [DBG] Connection id "0HN76VUOIVTG6" received FIN.
+2024-10-07 15:41:44.354 -03:00 [DBG] Connection id "0HN76VUOIVTG7" received FIN.
+2024-10-07 15:41:44.376 -03:00 [DBG] Connection id "0HN76VUOIVTG6" accepted.
+2024-10-07 15:41:44.376 -03:00 [DBG] Connection id "0HN76VUOIVTG7" accepted.
+2024-10-07 15:41:44.381 -03:00 [DBG] Connection id "0HN76VUOIVTG6" started.
+2024-10-07 15:41:44.382 -03:00 [DBG] Connection id "0HN76VUOIVTG7" started.
+2024-10-07 15:41:44.392 -03:00 [DBG] Connection id "0HN76VUOIVTG6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:41:44.392 -03:00 [DBG] Connection id "0HN76VUOIVTG7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:41:44.395 -03:00 [DBG] Connection id "0HN76VUOIVTG6" disconnecting.
+2024-10-07 15:41:44.395 -03:00 [DBG] Connection id "0HN76VUOIVTG7" disconnecting.
+2024-10-07 15:41:44.398 -03:00 [DBG] Connection id "0HN76VUOIVTG6" stopped.
+2024-10-07 15:41:44.399 -03:00 [DBG] Connection id "0HN76VUOIVTG7" stopped.
+2024-10-07 15:41:45.272 -03:00 [DBG] Connection id "0HN76VUOIVTG8" accepted.
+2024-10-07 15:41:45.311 -03:00 [DBG] Connection id "0HN76VUOIVTG9" accepted.
+2024-10-07 15:41:45.311 -03:00 [DBG] Connection id "0HN76VUOIVTG8" started.
+2024-10-07 15:41:45.312 -03:00 [DBG] Connection id "0HN76VUOIVTG9" started.
+2024-10-07 15:41:45.396 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 15:41:45.574 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 15:41:45.604 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 15:41:45.606 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 15:41:45.736 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 15:41:45.741 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 15:41:45.770 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 15:41:45.774 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 15:41:45.778 -03:00 [DBG] Connection id "0HN76VUOIVTG8" completed keep alive response.
+2024-10-07 15:41:45.783 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 399.548ms
+2024-10-07 15:41:45.859 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 15:41:45.860 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 15:41:45.868 -03:00 [DBG] Connection id "0HN76VUOIVTG8" completed keep alive response.
+2024-10-07 15:41:45.873 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 13.768ms
+2024-10-07 15:41:45.932 -03:00 [DBG] Connection id "0HN76VUOIVTG9" completed keep alive response.
+2024-10-07 15:41:45.933 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.5661ms
+2024-10-07 15:41:46.006 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 15:41:46.009 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 15:41:46.010 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 15:41:46.260 -03:00 [DBG] Connection id "0HN76VUOIVTG9" completed keep alive response.
+2024-10-07 15:41:46.262 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 256.024ms
+2024-10-07 15:41:48.190 -03:00 [DBG] Connection id "0HN76VUOIVTG9" received FIN.
+2024-10-07 15:41:48.190 -03:00 [DBG] Connection id "0HN76VUOIVTG8" received FIN.
+2024-10-07 15:41:48.193 -03:00 [DBG] Connection id "0HN76VUOIVTG9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:41:48.194 -03:00 [DBG] Connection id "0HN76VUOIVTG8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:41:48.195 -03:00 [DBG] Connection id "0HN76VUOIVTG9" disconnecting.
+2024-10-07 15:41:48.210 -03:00 [DBG] Connection id "0HN76VUOIVTG8" disconnecting.
+2024-10-07 15:41:48.212 -03:00 [DBG] Connection id "0HN76VUOIVTG9" stopped.
+2024-10-07 15:41:48.217 -03:00 [DBG] Connection id "0HN76VUOIVTG8" stopped.
+2024-10-07 15:42:05.836 -03:00 [DBG] Connection id "0HN76VUOIVTGA" accepted.
+2024-10-07 15:42:05.840 -03:00 [DBG] Connection id "0HN76VUOIVTGA" started.
+2024-10-07 15:42:05.843 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/User - application/json 85
+2024-10-07 15:42:05.852 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-07 15:42:05.859 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-07 15:42:05.862 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 15:42:05.866 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 15:42:05.870 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 15:42:05.899 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 15:42:05.905 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 15:42:05.908 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 15:42:05.910 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 15:42:05.913 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 15:42:05.916 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 15:42:05.923 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 15:42:06.232 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-07 15:42:06.257 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 15:42:06.264 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 15:42:06.270 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' using the name '' in request data ...
+2024-10-07 15:42:06.275 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-07 15:42:06.284 -03:00 [DBG] Connection id "0HN76VUOIVTGA", Request id "0HN76VUOIVTGA:00000001": started reading request body.
+2024-10-07 15:42:06.288 -03:00 [DBG] Connection id "0HN76VUOIVTGA", Request id "0HN76VUOIVTGA:00000001": done reading request body.
+2024-10-07 15:42:06.297 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'
+2024-10-07 15:42:06.299 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 15:42:06.303 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 15:42:06.306 -03:00 [DBG] Attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 15:42:06.319 -03:00 [DBG] Done attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 15:42:53.677 -03:00 [DBG] Entity Framework Core 8.0.8 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.39-mysql 
+2024-10-07 15:42:53.726 -03:00 [DBG] 'AppDbContext' generated a temporary value for the property 'UserModel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 15:42:53.792 -03:00 [DBG] Context 'AppDbContext' started tracking 'UserModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 15:42:54.342 -03:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-07 15:42:54.346 -03:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-07 15:42:54.358 -03:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-07 15:42:54.443 -03:00 [DBG] Creating DbConnection.
+2024-10-07 15:42:54.451 -03:00 [DBG] Created DbConnection. (4ms).
+2024-10-07 15:42:54.456 -03:00 [DBG] Opening connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 15:42:54.521 -03:00 [DBG] Opened connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 15:42:54.525 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-07 15:42:54.568 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-10-07 15:42:54.580 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-07 15:42:54.585 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-10-07 15:42:54.600 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (20ms).
+2024-10-07 15:42:54.610 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 15:42:54.655 -03:00 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 15:42:54.679 -03:00 [DBG] The foreign key property 'UserModel.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-07 15:42:54.689 -03:00 [DBG] Closing data reader to 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 15:42:54.699 -03:00 [DBG] A data reader for 'CadastroProductsDB' on server 'localhost' is being disposed after spending 33ms reading results.
+2024-10-07 15:42:54.708 -03:00 [DBG] Committing transaction.
+2024-10-07 15:42:54.714 -03:00 [DBG] Committed transaction.
+2024-10-07 15:42:54.718 -03:00 [DBG] Closing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 15:42:54.723 -03:00 [DBG] Closed connection to database 'CadastroProductsDB' on server 'localhost' (4ms).
+2024-10-07 15:42:54.726 -03:00 [DBG] Disposing transaction.
+2024-10-07 15:42:54.740 -03:00 [DBG] An entity of type 'UserModel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 15:42:54.745 -03:00 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-10-07 15:42:58.452 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-07 15:42:58.457 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-07 15:42:58.458 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-07 15:42:58.459 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-07 15:42:58.462 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-07 15:42:58.464 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'SistemaDeCadastro.Models.ModelsDTO.ResponseUserDTO'.
+2024-10-07 15:42:58.516 -03:00 [DBG] Found the endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] for address (id=[2],action=[GetById],controller=[User])
+2024-10-07 15:42:58.522 -03:00 [DBG] Successfully processed template api/User/{id} for SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro) resulting in /api/User/2 and 
+2024-10-07 15:42:58.525 -03:00 [DBG] Link generation succeeded for endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] with result /api/User/2
+2024-10-07 15:43:00.387 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro) in 54463.5697ms
+2024-10-07 15:43:00.389 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 15:43:02.008 -03:00 [DBG] Connection id "0HN76VUOIVTGA" completed keep alive response.
+2024-10-07 15:43:02.013 -03:00 [DBG] 'AppDbContext' disposed.
+2024-10-07 15:43:02.018 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 15:43:02.022 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (3ms).
+2024-10-07 15:43:02.024 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/User - 201 null application/json; charset=utf-8 56181.4644ms
+2024-10-07 15:56:55.093 -03:00 [FTL] A aplicação falhou ao iniciar.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at SistemaDeCadastro.Program.Main(String[] args) in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Program.cs:line 48
+2024-10-07 15:57:25.297 -03:00 [FTL] A aplicação falhou ao iniciar.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at SistemaDeCadastro.Program.Main(String[] args) in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Program.cs:line 48
+2024-10-07 15:57:51.844 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 15:57:51.985 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 15:57:52.066 -03:00 [DBG] Hosting starting
+2024-10-07 15:57:52.289 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 15:57:52.290 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 15:57:52.291 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 15:57:52.292 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 15:57:52.293 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 15:57:52.353 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 15:57:52.354 -03:00 [INF] Hosting environment: Development
+2024-10-07 15:57:52.355 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 15:57:52.356 -03:00 [DBG] Hosting started
+2024-10-07 15:57:52.593 -03:00 [DBG] Connection id "0HN7707P4REOC" accepted.
+2024-10-07 15:57:52.593 -03:00 [DBG] Connection id "0HN7707P4REOB" accepted.
+2024-10-07 15:57:52.595 -03:00 [DBG] Connection id "0HN7707P4REOC" started.
+2024-10-07 15:57:52.595 -03:00 [DBG] Connection id "0HN7707P4REOB" started.
+2024-10-07 15:57:52.609 -03:00 [DBG] Connection id "0HN7707P4REOB" received FIN.
+2024-10-07 15:57:52.609 -03:00 [DBG] Connection id "0HN7707P4REOC" received FIN.
+2024-10-07 15:57:52.615 -03:00 [DBG] Connection id "0HN7707P4REOB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:57:52.615 -03:00 [DBG] Connection id "0HN7707P4REOC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:57:52.619 -03:00 [DBG] Connection id "0HN7707P4REOB" disconnecting.
+2024-10-07 15:57:52.619 -03:00 [DBG] Connection id "0HN7707P4REOC" disconnecting.
+2024-10-07 15:57:52.624 -03:00 [DBG] Connection id "0HN7707P4REOB" stopped.
+2024-10-07 15:57:52.625 -03:00 [DBG] Connection id "0HN7707P4REOC" stopped.
+2024-10-07 15:57:53.535 -03:00 [DBG] Connection id "0HN7707P4REOD" accepted.
+2024-10-07 15:57:53.573 -03:00 [DBG] Connection id "0HN7707P4REOD" started.
+2024-10-07 15:57:53.574 -03:00 [DBG] Connection id "0HN7707P4REOE" accepted.
+2024-10-07 15:57:53.578 -03:00 [DBG] Connection id "0HN7707P4REOE" started.
+2024-10-07 15:57:53.687 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 15:57:53.869 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 15:57:53.890 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 15:57:53.892 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 15:57:54.007 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 15:57:54.011 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 15:57:54.042 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 15:57:54.044 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 15:57:54.046 -03:00 [DBG] Connection id "0HN7707P4REOD" completed keep alive response.
+2024-10-07 15:57:54.053 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 375.3422ms
+2024-10-07 15:57:54.109 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 15:57:54.111 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 15:57:54.118 -03:00 [DBG] Connection id "0HN7707P4REOD" completed keep alive response.
+2024-10-07 15:57:54.121 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 11.1578ms
+2024-10-07 15:57:54.191 -03:00 [DBG] Connection id "0HN7707P4REOE" completed keep alive response.
+2024-10-07 15:57:54.193 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.8897ms
+2024-10-07 15:57:54.264 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 15:57:54.268 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 15:57:54.269 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 15:57:54.495 -03:00 [DBG] Connection id "0HN7707P4REOE" completed keep alive response.
+2024-10-07 15:57:54.497 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 233.1041ms
+2024-10-07 15:57:56.454 -03:00 [DBG] Connection id "0HN7707P4REOD" received FIN.
+2024-10-07 15:57:56.454 -03:00 [DBG] Connection id "0HN7707P4REOE" received FIN.
+2024-10-07 15:57:56.462 -03:00 [DBG] Connection id "0HN7707P4REOD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:57:56.462 -03:00 [DBG] Connection id "0HN7707P4REOE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 15:57:56.464 -03:00 [DBG] Connection id "0HN7707P4REOD" disconnecting.
+2024-10-07 15:57:56.465 -03:00 [DBG] Connection id "0HN7707P4REOE" disconnecting.
+2024-10-07 15:57:56.469 -03:00 [DBG] Connection id "0HN7707P4REOE" stopped.
+2024-10-07 15:57:56.485 -03:00 [DBG] Connection id "0HN7707P4REOD" stopped.
+2024-10-07 15:58:12.020 -03:00 [DBG] Connection id "0HN7707P4REOF" accepted.
+2024-10-07 15:58:12.023 -03:00 [DBG] Connection id "0HN7707P4REOF" started.
+2024-10-07 15:58:12.025 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/User - application/json 82
+2024-10-07 15:58:12.035 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-07 15:58:12.040 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-07 15:58:12.043 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 15:58:12.047 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 15:58:12.052 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 15:58:12.083 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 15:58:12.088 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 15:58:12.090 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 15:58:12.092 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 15:58:12.095 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 15:58:12.097 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 15:58:12.102 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 15:58:12.396 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-07 15:58:12.417 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 15:58:12.424 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 15:58:12.428 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' using the name '' in request data ...
+2024-10-07 15:58:12.431 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-07 15:58:12.443 -03:00 [DBG] Connection id "0HN7707P4REOF", Request id "0HN7707P4REOF:00000001": started reading request body.
+2024-10-07 15:58:12.445 -03:00 [DBG] Connection id "0HN7707P4REOF", Request id "0HN7707P4REOF:00000001": done reading request body.
+2024-10-07 15:58:12.455 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'
+2024-10-07 15:58:12.457 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 15:58:12.459 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 15:58:12.460 -03:00 [DBG] Attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 15:58:12.472 -03:00 [DBG] Done attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 15:58:39.187 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro) in 27084.9852ms
+2024-10-07 15:58:39.192 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:01:16.668 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 16:01:19.722 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 16:01:19.960 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 16:01:20.062 -03:00 [DBG] Hosting starting
+2024-10-07 16:01:20.240 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 16:01:20.241 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 16:01:20.242 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 16:01:20.243 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 16:01:20.243 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 16:01:20.288 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 16:01:20.289 -03:00 [INF] Hosting environment: Development
+2024-10-07 16:01:20.289 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 16:01:20.290 -03:00 [DBG] Hosting started
+2024-10-07 16:01:20.672 -03:00 [DBG] Connection id "0HN7709N581LT" received FIN.
+2024-10-07 16:01:20.672 -03:00 [DBG] Connection id "0HN7709N581LS" received FIN.
+2024-10-07 16:01:20.689 -03:00 [DBG] Connection id "0HN7709N581LS" accepted.
+2024-10-07 16:01:20.689 -03:00 [DBG] Connection id "0HN7709N581LT" accepted.
+2024-10-07 16:01:20.693 -03:00 [DBG] Connection id "0HN7709N581LS" started.
+2024-10-07 16:01:20.694 -03:00 [DBG] Connection id "0HN7709N581LT" started.
+2024-10-07 16:01:20.708 -03:00 [DBG] Connection id "0HN7709N581LT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:01:20.708 -03:00 [DBG] Connection id "0HN7709N581LS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:01:20.711 -03:00 [DBG] Connection id "0HN7709N581LT" disconnecting.
+2024-10-07 16:01:20.711 -03:00 [DBG] Connection id "0HN7709N581LS" disconnecting.
+2024-10-07 16:01:20.717 -03:00 [DBG] Connection id "0HN7709N581LS" stopped.
+2024-10-07 16:01:20.717 -03:00 [DBG] Connection id "0HN7709N581LT" stopped.
+2024-10-07 16:01:21.629 -03:00 [DBG] Connection id "0HN7709N581LU" accepted.
+2024-10-07 16:01:21.635 -03:00 [DBG] Connection id "0HN7709N581LU" started.
+2024-10-07 16:01:21.636 -03:00 [DBG] Connection id "0HN7709N581LV" accepted.
+2024-10-07 16:01:21.638 -03:00 [DBG] Connection id "0HN7709N581LV" started.
+2024-10-07 16:01:21.691 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 16:01:21.877 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 16:01:21.910 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 16:01:21.912 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:01:22.024 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 16:01:22.027 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 16:01:22.045 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 16:01:22.046 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 16:01:22.049 -03:00 [DBG] Connection id "0HN7709N581LU" completed keep alive response.
+2024-10-07 16:01:22.053 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 372.2091ms
+2024-10-07 16:01:22.101 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 16:01:22.106 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 16:01:22.108 -03:00 [DBG] Connection id "0HN7709N581LU" completed keep alive response.
+2024-10-07 16:01:22.109 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.6887ms
+2024-10-07 16:01:22.183 -03:00 [DBG] Connection id "0HN7709N581LV" completed keep alive response.
+2024-10-07 16:01:22.184 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.2752ms
+2024-10-07 16:01:22.251 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 16:01:22.256 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 16:01:22.257 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:01:22.475 -03:00 [DBG] Connection id "0HN7709N581LV" completed keep alive response.
+2024-10-07 16:01:22.477 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 226.2119ms
+2024-10-07 16:01:24.655 -03:00 [DBG] Connection id "0HN7709N581LV" received FIN.
+2024-10-07 16:01:24.654 -03:00 [DBG] Connection id "0HN7709N581LU" received FIN.
+2024-10-07 16:01:24.656 -03:00 [DBG] Connection id "0HN7709N581LV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:01:24.657 -03:00 [DBG] Connection id "0HN7709N581LU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:01:24.658 -03:00 [DBG] Connection id "0HN7709N581LV" disconnecting.
+2024-10-07 16:01:24.665 -03:00 [DBG] Connection id "0HN7709N581LU" disconnecting.
+2024-10-07 16:01:24.670 -03:00 [DBG] Connection id "0HN7709N581LU" stopped.
+2024-10-07 16:01:24.670 -03:00 [DBG] Connection id "0HN7709N581LV" stopped.
+2024-10-07 16:01:53.821 -03:00 [DBG] Connection id "0HN7709N581M0" accepted.
+2024-10-07 16:01:53.823 -03:00 [DBG] Connection id "0HN7709N581M0" started.
+2024-10-07 16:01:53.826 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/User - application/json 82
+2024-10-07 16:01:53.835 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-07 16:01:53.840 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-07 16:01:53.843 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:01:53.846 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 16:01:53.851 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:01:53.880 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 16:01:53.885 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 16:01:53.887 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 16:01:53.889 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 16:01:53.891 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 16:01:53.892 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 16:01:53.895 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:01:54.207 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-07 16:01:54.233 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:01:54.239 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:01:54.244 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' using the name '' in request data ...
+2024-10-07 16:01:54.249 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-07 16:01:54.257 -03:00 [DBG] Connection id "0HN7709N581M0", Request id "0HN7709N581M0:00000001": started reading request body.
+2024-10-07 16:01:54.259 -03:00 [DBG] Connection id "0HN7709N581M0", Request id "0HN7709N581M0:00000001": done reading request body.
+2024-10-07 16:01:54.268 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'
+2024-10-07 16:01:54.271 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:01:54.272 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:01:54.273 -03:00 [DBG] Attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:01:54.285 -03:00 [DBG] Done attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:02:35.689 -03:00 [DBG] Entity Framework Core 8.0.8 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.39-mysql 
+2024-10-07 16:02:35.738 -03:00 [DBG] 'AppDbContext' generated a temporary value for the property 'UserModel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:02:35.812 -03:00 [DBG] Context 'AppDbContext' started tracking 'UserModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:02:36.549 -03:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-07 16:02:36.553 -03:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-07 16:02:36.568 -03:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-07 16:02:36.644 -03:00 [DBG] Creating DbConnection.
+2024-10-07 16:02:36.652 -03:00 [DBG] Created DbConnection. (5ms).
+2024-10-07 16:02:36.657 -03:00 [DBG] Opening connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:02:36.739 -03:00 [DBG] Opened connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:02:36.744 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-07 16:02:36.787 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-10-07 16:02:36.797 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-07 16:02:36.804 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-10-07 16:02:36.824 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (26ms).
+2024-10-07 16:02:36.835 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:02:36.887 -03:00 [ERR] Failed executing DbCommand (54ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:02:36.903 -03:00 [DBG] Disposing transaction.
+2024-10-07 16:02:36.906 -03:00 [DBG] Closing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:02:36.914 -03:00 [DBG] Closed connection to database 'CadastroProductsDB' on server 'localhost' (4ms).
+2024-10-07 16:02:36.960 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'SistemaDeCadastro.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown column 'DateAlteration' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown column 'DateAlteration' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-07 16:02:37.092 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro) in 43195.7284ms
+2024-10-07 16:02:37.095 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:02:37.169 -03:00 [ERR] Um erro ocorreu durante a execução da requisição.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown column 'DateAlteration' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SistemaDeCadastro.Repositories.UserRepository.Criar(RequestUserDTO requestUserDTO) in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Repositories\UserRepository.cs:line 36
+   at SistemaDeCadastro.Controllers.UserController.CreateUser(RequestUserDTO requestUserDTO) in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Controllers\UserController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at SistemaDeCadastro.Program.<>c.<<Main>b__0_2>d.MoveNext() in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Program.cs:line 54
+2024-10-07 16:02:37.195 -03:00 [DBG] Connection id "0HN7709N581M0" completed keep alive response.
+2024-10-07 16:02:37.199 -03:00 [DBG] 'AppDbContext' disposed.
+2024-10-07 16:02:37.203 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:02:37.207 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (3ms).
+2024-10-07 16:02:37.210 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/User - 500 null null 43384.1859ms
+2024-10-07 16:03:03.700 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/User - application/json 82
+2024-10-07 16:03:03.709 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-07 16:03:03.710 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-07 16:03:03.711 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:03:03.713 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 16:03:03.714 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:03:03.715 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 16:03:03.717 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 16:03:03.719 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 16:03:03.721 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 16:03:03.722 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 16:03:03.724 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 16:03:03.726 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:03:03.739 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:03:03.741 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:03:03.743 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' using the name '' in request data ...
+2024-10-07 16:03:03.745 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-07 16:03:03.747 -03:00 [DBG] Connection id "0HN7709N581M0", Request id "0HN7709N581M0:00000002": started reading request body.
+2024-10-07 16:03:03.749 -03:00 [DBG] Connection id "0HN7709N581M0", Request id "0HN7709N581M0:00000002": done reading request body.
+2024-10-07 16:03:03.751 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'
+2024-10-07 16:03:03.753 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:03:03.755 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:03:03.756 -03:00 [DBG] Attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:03:03.759 -03:00 [DBG] Done attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:03:18.154 -03:00 [DBG] Entity Framework Core 8.0.8 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.39-mysql 
+2024-10-07 16:03:18.158 -03:00 [DBG] 'AppDbContext' generated a temporary value for the property 'UserModel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:03:18.160 -03:00 [DBG] Context 'AppDbContext' started tracking 'UserModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:03:18.855 -03:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-07 16:03:18.858 -03:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-07 16:03:18.859 -03:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-07 16:03:18.861 -03:00 [DBG] Creating DbConnection.
+2024-10-07 16:03:18.862 -03:00 [DBG] Created DbConnection. (0ms).
+2024-10-07 16:03:18.864 -03:00 [DBG] Opening connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:03:18.880 -03:00 [DBG] Opened connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:03:18.899 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-07 16:03:18.903 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-10-07 16:03:18.908 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-07 16:03:18.909 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-10-07 16:03:18.911 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-10-07 16:03:18.912 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:03:18.918 -03:00 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:03:18.922 -03:00 [DBG] Disposing transaction.
+2024-10-07 16:03:18.922 -03:00 [DBG] Closing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:03:18.923 -03:00 [DBG] Closed connection to database 'CadastroProductsDB' on server 'localhost' (0ms).
+2024-10-07 16:03:18.926 -03:00 [ERR] An exception occurred in the database while saving changes for context type 'SistemaDeCadastro.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown column 'DateAlteration' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown column 'DateAlteration' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2024-10-07 16:03:19.038 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro) in 15312.1029ms
+2024-10-07 16:03:19.040 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:03:19.109 -03:00 [ERR] Um erro ocorreu durante a execução da requisição.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown column 'DateAlteration' in 'field list'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 37
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 130
+   at MySqlConnector.MySqlDataReader.InitAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 483
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 56
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 357
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 350
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at SistemaDeCadastro.Repositories.UserRepository.Criar(RequestUserDTO requestUserDTO) in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Repositories\UserRepository.cs:line 36
+   at SistemaDeCadastro.Controllers.UserController.CreateUser(RequestUserDTO requestUserDTO) in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Controllers\UserController.cs:line 27
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at SistemaDeCadastro.Program.<>c.<<Main>b__0_2>d.MoveNext() in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Program.cs:line 54
+2024-10-07 16:03:19.128 -03:00 [DBG] Connection id "0HN7709N581M0" completed keep alive response.
+2024-10-07 16:03:19.131 -03:00 [DBG] 'AppDbContext' disposed.
+2024-10-07 16:03:19.132 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:03:19.135 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (2ms).
+2024-10-07 16:03:19.137 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/User - 500 null null 15437.6786ms
+2024-10-07 16:04:14.523 -03:00 [FTL] A aplicação falhou ao iniciar.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at SistemaDeCadastro.Program.Main(String[] args) in C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\Program.cs:line 48
+2024-10-07 16:04:27.154 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 16:04:27.409 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 16:04:27.502 -03:00 [DBG] Hosting starting
+2024-10-07 16:04:27.741 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 16:04:27.742 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 16:04:27.743 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 16:04:27.745 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 16:04:27.746 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 16:04:27.757 -03:00 [DBG] Connection id "0HN770BETDPCJ" accepted.
+2024-10-07 16:04:27.757 -03:00 [DBG] Connection id "0HN770BETDPCK" accepted.
+2024-10-07 16:04:27.758 -03:00 [DBG] Connection id "0HN770BETDPCJ" started.
+2024-10-07 16:04:27.758 -03:00 [DBG] Connection id "0HN770BETDPCK" started.
+2024-10-07 16:04:27.782 -03:00 [DBG] Connection id "0HN770BETDPCK" received FIN.
+2024-10-07 16:04:27.782 -03:00 [DBG] Connection id "0HN770BETDPCJ" received FIN.
+2024-10-07 16:04:27.790 -03:00 [DBG] Connection id "0HN770BETDPCK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:04:27.790 -03:00 [DBG] Connection id "0HN770BETDPCJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:04:27.793 -03:00 [DBG] Connection id "0HN770BETDPCK" disconnecting.
+2024-10-07 16:04:27.795 -03:00 [DBG] Connection id "0HN770BETDPCJ" disconnecting.
+2024-10-07 16:04:27.798 -03:00 [DBG] Connection id "0HN770BETDPCK" stopped.
+2024-10-07 16:04:27.799 -03:00 [DBG] Connection id "0HN770BETDPCJ" stopped.
+2024-10-07 16:04:27.822 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 16:04:27.825 -03:00 [INF] Hosting environment: Development
+2024-10-07 16:04:27.829 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 16:04:27.834 -03:00 [DBG] Hosting started
+2024-10-07 16:04:28.870 -03:00 [DBG] Connection id "0HN770BETDPCL" accepted.
+2024-10-07 16:04:28.904 -03:00 [DBG] Connection id "0HN770BETDPCL" started.
+2024-10-07 16:04:28.905 -03:00 [DBG] Connection id "0HN770BETDPCM" accepted.
+2024-10-07 16:04:28.908 -03:00 [DBG] Connection id "0HN770BETDPCM" started.
+2024-10-07 16:04:28.983 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 16:04:29.285 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 16:04:29.317 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 16:04:29.319 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:04:29.430 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 16:04:29.433 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 16:04:29.453 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 16:04:29.455 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 16:04:29.456 -03:00 [DBG] Connection id "0HN770BETDPCL" completed keep alive response.
+2024-10-07 16:04:29.460 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 488.1055ms
+2024-10-07 16:04:29.521 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 16:04:29.523 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 16:04:29.528 -03:00 [DBG] Connection id "0HN770BETDPCL" completed keep alive response.
+2024-10-07 16:04:29.532 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 11.7123ms
+2024-10-07 16:04:29.586 -03:00 [DBG] Connection id "0HN770BETDPCM" completed keep alive response.
+2024-10-07 16:04:29.588 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.0923ms
+2024-10-07 16:04:29.676 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 16:04:29.681 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 16:04:29.684 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:04:29.904 -03:00 [DBG] Connection id "0HN770BETDPCM" completed keep alive response.
+2024-10-07 16:04:29.908 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 231.5046ms
+2024-10-07 16:04:31.891 -03:00 [DBG] Connection id "0HN770BETDPCL" received FIN.
+2024-10-07 16:04:31.891 -03:00 [DBG] Connection id "0HN770BETDPCM" received FIN.
+2024-10-07 16:04:31.893 -03:00 [DBG] Connection id "0HN770BETDPCL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:04:31.894 -03:00 [DBG] Connection id "0HN770BETDPCM" disconnecting.
+2024-10-07 16:04:31.897 -03:00 [DBG] Connection id "0HN770BETDPCL" disconnecting.
+2024-10-07 16:04:31.900 -03:00 [DBG] Connection id "0HN770BETDPCM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:04:31.905 -03:00 [DBG] Connection id "0HN770BETDPCL" stopped.
+2024-10-07 16:04:31.905 -03:00 [DBG] Connection id "0HN770BETDPCM" stopped.
+2024-10-07 16:04:58.518 -03:00 [DBG] Connection id "0HN770BETDPCN" accepted.
+2024-10-07 16:04:58.520 -03:00 [DBG] Connection id "0HN770BETDPCN" started.
+2024-10-07 16:04:58.523 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/User - application/json 79
+2024-10-07 16:04:58.536 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-07 16:04:58.541 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-07 16:04:58.545 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:04:58.550 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 16:04:58.553 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:04:58.578 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 16:04:58.582 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 16:04:58.584 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 16:04:58.586 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 16:04:58.587 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 16:04:58.588 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 16:04:58.591 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:04:58.843 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-07 16:04:58.864 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:04:58.870 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:04:58.874 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' using the name '' in request data ...
+2024-10-07 16:04:58.876 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-07 16:04:58.884 -03:00 [DBG] Connection id "0HN770BETDPCN", Request id "0HN770BETDPCN:00000001": started reading request body.
+2024-10-07 16:04:58.886 -03:00 [DBG] Connection id "0HN770BETDPCN", Request id "0HN770BETDPCN:00000001": done reading request body.
+2024-10-07 16:04:58.891 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'
+2024-10-07 16:04:58.892 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:04:58.892 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:04:58.893 -03:00 [DBG] Attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:04:58.904 -03:00 [DBG] Done attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:05:15.537 -03:00 [DBG] Entity Framework Core 8.0.8 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.39-mysql 
+2024-10-07 16:05:15.584 -03:00 [DBG] 'AppDbContext' generated a temporary value for the property 'UserModel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:05:15.647 -03:00 [DBG] Context 'AppDbContext' started tracking 'UserModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:05:16.657 -03:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-07 16:05:16.662 -03:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-07 16:05:16.680 -03:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-07 16:05:16.745 -03:00 [DBG] Creating DbConnection.
+2024-10-07 16:05:16.752 -03:00 [DBG] Created DbConnection. (6ms).
+2024-10-07 16:05:16.757 -03:00 [DBG] Opening connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:05:16.822 -03:00 [DBG] Opened connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:05:16.825 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-07 16:05:16.857 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-10-07 16:05:16.867 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-07 16:05:16.872 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-10-07 16:05:16.889 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (22ms).
+2024-10-07 16:05:16.897 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:05:16.932 -03:00 [INF] Executed DbCommand (36ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:05:16.951 -03:00 [DBG] The foreign key property 'UserModel.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-07 16:05:16.958 -03:00 [DBG] Closing data reader to 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:05:16.965 -03:00 [DBG] A data reader for 'CadastroProductsDB' on server 'localhost' is being disposed after spending 24ms reading results.
+2024-10-07 16:05:16.970 -03:00 [DBG] Committing transaction.
+2024-10-07 16:05:16.975 -03:00 [DBG] Committed transaction.
+2024-10-07 16:05:16.979 -03:00 [DBG] Closing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:05:16.983 -03:00 [DBG] Closed connection to database 'CadastroProductsDB' on server 'localhost' (4ms).
+2024-10-07 16:05:16.987 -03:00 [DBG] Disposing transaction.
+2024-10-07 16:05:16.999 -03:00 [DBG] An entity of type 'UserModel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:05:17.004 -03:00 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-10-07 16:05:32.187 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-07 16:05:32.191 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-07 16:05:32.193 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-07 16:05:32.194 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-07 16:05:32.195 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-07 16:05:32.197 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'SistemaDeCadastro.Models.ModelsDTO.ResponseUserDTO'.
+2024-10-07 16:05:32.262 -03:00 [DBG] Found the endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] for address (id=[3],action=[GetById],controller=[User])
+2024-10-07 16:05:32.267 -03:00 [DBG] Successfully processed template api/User/{id} for SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro) resulting in /api/User/3 and 
+2024-10-07 16:05:32.270 -03:00 [DBG] Link generation succeeded for endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] with result /api/User/3
+2024-10-07 16:05:35.061 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro) in 36469.4518ms
+2024-10-07 16:05:35.065 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:05:36.788 -03:00 [DBG] Connection id "0HN770BETDPCN" completed keep alive response.
+2024-10-07 16:05:36.792 -03:00 [DBG] 'AppDbContext' disposed.
+2024-10-07 16:05:36.799 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:05:36.803 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (4ms).
+2024-10-07 16:05:36.805 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/User - 201 null application/json; charset=utf-8 38282.1168ms
+2024-10-07 16:07:26.115 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 16:07:26.292 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 16:07:26.370 -03:00 [DBG] Hosting starting
+2024-10-07 16:07:26.517 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 16:07:26.518 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 16:07:26.519 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 16:07:26.519 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 16:07:26.520 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 16:07:26.573 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 16:07:26.575 -03:00 [INF] Hosting environment: Development
+2024-10-07 16:07:26.576 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 16:07:26.577 -03:00 [DBG] Hosting started
+2024-10-07 16:07:26.628 -03:00 [DBG] Connection id "0HN770D47944O" received FIN.
+2024-10-07 16:07:26.628 -03:00 [DBG] Connection id "0HN770D47944P" received FIN.
+2024-10-07 16:07:26.640 -03:00 [DBG] Connection id "0HN770D47944O" accepted.
+2024-10-07 16:07:26.640 -03:00 [DBG] Connection id "0HN770D47944P" accepted.
+2024-10-07 16:07:26.641 -03:00 [DBG] Connection id "0HN770D47944O" started.
+2024-10-07 16:07:26.641 -03:00 [DBG] Connection id "0HN770D47944P" started.
+2024-10-07 16:07:26.654 -03:00 [DBG] Connection id "0HN770D47944O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:07:26.654 -03:00 [DBG] Connection id "0HN770D47944P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:07:26.657 -03:00 [DBG] Connection id "0HN770D47944O" disconnecting.
+2024-10-07 16:07:26.657 -03:00 [DBG] Connection id "0HN770D47944P" disconnecting.
+2024-10-07 16:07:26.660 -03:00 [DBG] Connection id "0HN770D47944O" stopped.
+2024-10-07 16:07:26.660 -03:00 [DBG] Connection id "0HN770D47944P" stopped.
+2024-10-07 16:07:27.588 -03:00 [DBG] Connection id "0HN770D47944Q" accepted.
+2024-10-07 16:07:27.597 -03:00 [DBG] Connection id "0HN770D47944Q" started.
+2024-10-07 16:07:27.597 -03:00 [DBG] Connection id "0HN770D47944R" accepted.
+2024-10-07 16:07:27.603 -03:00 [DBG] Connection id "0HN770D47944R" started.
+2024-10-07 16:07:27.658 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 16:07:27.959 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 16:07:27.991 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 16:07:27.993 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:07:28.101 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 16:07:28.104 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 16:07:28.123 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 16:07:28.124 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 16:07:28.126 -03:00 [DBG] Connection id "0HN770D47944Q" completed keep alive response.
+2024-10-07 16:07:28.129 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 481.61ms
+2024-10-07 16:07:28.175 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 16:07:28.178 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 16:07:28.187 -03:00 [DBG] Connection id "0HN770D47944Q" completed keep alive response.
+2024-10-07 16:07:28.190 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 14.9869ms
+2024-10-07 16:07:28.274 -03:00 [DBG] Connection id "0HN770D47944R" completed keep alive response.
+2024-10-07 16:07:28.275 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.1797ms
+2024-10-07 16:07:28.338 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 16:07:28.344 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 16:07:28.346 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:07:28.581 -03:00 [DBG] Connection id "0HN770D47944R" completed keep alive response.
+2024-10-07 16:07:28.596 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 257.9564ms
+2024-10-07 16:07:30.489 -03:00 [DBG] Connection id "0HN770D47944Q" received FIN.
+2024-10-07 16:07:30.489 -03:00 [DBG] Connection id "0HN770D47944R" received FIN.
+2024-10-07 16:07:30.491 -03:00 [DBG] Connection id "0HN770D47944Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:07:30.492 -03:00 [DBG] Connection id "0HN770D47944R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:07:30.495 -03:00 [DBG] Connection id "0HN770D47944Q" disconnecting.
+2024-10-07 16:07:30.498 -03:00 [DBG] Connection id "0HN770D47944R" disconnecting.
+2024-10-07 16:07:30.502 -03:00 [DBG] Connection id "0HN770D47944R" stopped.
+2024-10-07 16:07:30.502 -03:00 [DBG] Connection id "0HN770D47944Q" stopped.
+2024-10-07 16:07:57.154 -03:00 [DBG] Connection id "0HN770D47944S" accepted.
+2024-10-07 16:07:57.158 -03:00 [DBG] Connection id "0HN770D47944S" started.
+2024-10-07 16:07:57.160 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/User - application/json 93
+2024-10-07 16:07:57.173 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-07 16:07:57.177 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-07 16:07:57.181 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:07:57.188 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 16:07:57.193 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:07:57.221 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 16:07:57.226 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 16:07:57.228 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 16:07:57.235 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 16:07:57.238 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 16:07:57.240 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 16:07:57.244 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:07:57.527 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-07 16:07:57.552 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:07:57.559 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:07:57.565 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' using the name '' in request data ...
+2024-10-07 16:07:57.570 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-07 16:07:57.582 -03:00 [DBG] Connection id "0HN770D47944S", Request id "0HN770D47944S:00000001": started reading request body.
+2024-10-07 16:07:57.584 -03:00 [DBG] Connection id "0HN770D47944S", Request id "0HN770D47944S:00000001": done reading request body.
+2024-10-07 16:07:57.593 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'
+2024-10-07 16:07:57.595 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:07:57.597 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:07:57.599 -03:00 [DBG] Attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:07:57.610 -03:00 [DBG] Done attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:08:12.242 -03:00 [DBG] Entity Framework Core 8.0.8 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.39-mysql 
+2024-10-07 16:08:12.291 -03:00 [DBG] 'AppDbContext' generated a temporary value for the property 'UserModel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:08:12.367 -03:00 [DBG] Context 'AppDbContext' started tracking 'UserModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:08:12.854 -03:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-07 16:08:12.861 -03:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-07 16:08:12.882 -03:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-07 16:08:12.965 -03:00 [DBG] Creating DbConnection.
+2024-10-07 16:08:12.973 -03:00 [DBG] Created DbConnection. (6ms).
+2024-10-07 16:08:12.979 -03:00 [DBG] Opening connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:08:13.067 -03:00 [DBG] Opened connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:08:13.071 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-07 16:08:13.112 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-10-07 16:08:13.122 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-07 16:08:13.127 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-10-07 16:08:13.144 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (22ms).
+2024-10-07 16:08:13.154 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:08:13.207 -03:00 [INF] Executed DbCommand (52ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:08:13.232 -03:00 [DBG] The foreign key property 'UserModel.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-07 16:08:13.241 -03:00 [DBG] Closing data reader to 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:08:13.251 -03:00 [DBG] A data reader for 'CadastroProductsDB' on server 'localhost' is being disposed after spending 35ms reading results.
+2024-10-07 16:08:13.258 -03:00 [DBG] Committing transaction.
+2024-10-07 16:08:13.268 -03:00 [DBG] Committed transaction.
+2024-10-07 16:08:13.272 -03:00 [DBG] Closing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:08:13.278 -03:00 [DBG] Closed connection to database 'CadastroProductsDB' on server 'localhost' (5ms).
+2024-10-07 16:08:13.284 -03:00 [DBG] Disposing transaction.
+2024-10-07 16:08:13.299 -03:00 [DBG] An entity of type 'UserModel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:08:13.302 -03:00 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-10-07 16:08:25.227 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-07 16:08:25.234 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-07 16:08:25.235 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-07 16:08:25.236 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-07 16:08:25.238 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-07 16:08:25.240 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'SistemaDeCadastro.Models.ModelsDTO.ResponseUserDTO'.
+2024-10-07 16:08:25.288 -03:00 [DBG] Found the endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] for address (id=[4],action=[GetById],controller=[User])
+2024-10-07 16:08:25.292 -03:00 [DBG] Successfully processed template api/User/{id} for SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro) resulting in /api/User/4 and 
+2024-10-07 16:08:25.295 -03:00 [DBG] Link generation succeeded for endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] with result /api/User/4
+2024-10-07 16:08:33.583 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro) in 36337.4047ms
+2024-10-07 16:08:33.587 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:08:35.028 -03:00 [DBG] Connection id "0HN770D47944S" completed keep alive response.
+2024-10-07 16:08:35.033 -03:00 [DBG] 'AppDbContext' disposed.
+2024-10-07 16:08:35.037 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:08:35.040 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (3ms).
+2024-10-07 16:08:35.042 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/User - 201 null application/json; charset=utf-8 37882.1668ms
+2024-10-07 16:09:17.339 -03:00 [INF] O Swagger foi inicializado
+2024-10-07 16:09:17.528 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-07 16:09:17.605 -03:00 [DBG] Hosting starting
+2024-10-07 16:09:17.776 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-07 16:09:17.777 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-07 16:09:17.778 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-07 16:09:17.779 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-07 16:09:17.780 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-07 16:09:17.827 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-07 16:09:17.828 -03:00 [INF] Hosting environment: Development
+2024-10-07 16:09:17.831 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-07 16:09:17.832 -03:00 [DBG] Hosting started
+2024-10-07 16:09:17.967 -03:00 [DBG] Connection id "0HN770E5D2SVK" received FIN.
+2024-10-07 16:09:17.967 -03:00 [DBG] Connection id "0HN770E5D2SVJ" received FIN.
+2024-10-07 16:09:17.976 -03:00 [DBG] Connection id "0HN770E5D2SVJ" accepted.
+2024-10-07 16:09:17.976 -03:00 [DBG] Connection id "0HN770E5D2SVK" accepted.
+2024-10-07 16:09:17.979 -03:00 [DBG] Connection id "0HN770E5D2SVJ" started.
+2024-10-07 16:09:17.979 -03:00 [DBG] Connection id "0HN770E5D2SVK" started.
+2024-10-07 16:09:17.988 -03:00 [DBG] Connection id "0HN770E5D2SVK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:09:17.988 -03:00 [DBG] Connection id "0HN770E5D2SVJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:09:17.992 -03:00 [DBG] Connection id "0HN770E5D2SVK" disconnecting.
+2024-10-07 16:09:17.992 -03:00 [DBG] Connection id "0HN770E5D2SVJ" disconnecting.
+2024-10-07 16:09:17.997 -03:00 [DBG] Connection id "0HN770E5D2SVK" stopped.
+2024-10-07 16:09:17.997 -03:00 [DBG] Connection id "0HN770E5D2SVJ" stopped.
+2024-10-07 16:09:18.905 -03:00 [DBG] Connection id "0HN770E5D2SVL" accepted.
+2024-10-07 16:09:18.934 -03:00 [DBG] Connection id "0HN770E5D2SVL" started.
+2024-10-07 16:09:18.949 -03:00 [DBG] Connection id "0HN770E5D2SVM" accepted.
+2024-10-07 16:09:18.955 -03:00 [DBG] Connection id "0HN770E5D2SVM" started.
+2024-10-07 16:09:18.998 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-07 16:09:19.167 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-07 16:09:19.201 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-07 16:09:19.204 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:09:19.312 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-07 16:09:19.315 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-07 16:09:19.333 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-07 16:09:19.335 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-07 16:09:19.337 -03:00 [DBG] Connection id "0HN770E5D2SVL" completed keep alive response.
+2024-10-07 16:09:19.340 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 351.3817ms
+2024-10-07 16:09:19.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-07 16:09:19.416 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-07 16:09:19.426 -03:00 [DBG] Connection id "0HN770E5D2SVL" completed keep alive response.
+2024-10-07 16:09:19.434 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 21.9379ms
+2024-10-07 16:09:19.509 -03:00 [DBG] Connection id "0HN770E5D2SVM" completed keep alive response.
+2024-10-07 16:09:19.524 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.9667ms
+2024-10-07 16:09:19.587 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-07 16:09:19.591 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-07 16:09:19.592 -03:00 [DBG] Request did not match any endpoints
+2024-10-07 16:09:19.821 -03:00 [DBG] Connection id "0HN770E5D2SVM" completed keep alive response.
+2024-10-07 16:09:19.823 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.655ms
+2024-10-07 16:09:21.810 -03:00 [DBG] Connection id "0HN770E5D2SVL" received FIN.
+2024-10-07 16:09:21.810 -03:00 [DBG] Connection id "0HN770E5D2SVM" received FIN.
+2024-10-07 16:09:21.812 -03:00 [DBG] Connection id "0HN770E5D2SVL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:09:21.816 -03:00 [DBG] Connection id "0HN770E5D2SVM" disconnecting.
+2024-10-07 16:09:21.817 -03:00 [DBG] Connection id "0HN770E5D2SVL" disconnecting.
+2024-10-07 16:09:21.822 -03:00 [DBG] Connection id "0HN770E5D2SVM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-07 16:09:21.834 -03:00 [DBG] Connection id "0HN770E5D2SVL" stopped.
+2024-10-07 16:09:21.835 -03:00 [DBG] Connection id "0HN770E5D2SVM" stopped.
+2024-10-07 16:09:35.033 -03:00 [DBG] Connection id "0HN770E5D2SVN" accepted.
+2024-10-07 16:09:35.035 -03:00 [DBG] Connection id "0HN770E5D2SVN" started.
+2024-10-07 16:09:35.038 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/User - application/json 79
+2024-10-07 16:09:35.048 -03:00 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-07 16:09:35.055 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-07 16:09:35.058 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:09:35.063 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-07 16:09:35.068 -03:00 [INF] Executing endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:09:35.105 -03:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO) on controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro).
+2024-10-07 16:09:35.108 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-07 16:09:35.109 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-07 16:09:35.111 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-07 16:09:35.114 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-07 16:09:35.116 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-07 16:09:35.119 -03:00 [DBG] Executing controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:09:35.434 -03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-07 16:09:35.460 -03:00 [DBG] Executed controller factory for controller SistemaDeCadastro.Controllers.UserController (SistemaDeCadastro)
+2024-10-07 16:09:35.468 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:09:35.472 -03:00 [DBG] Attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' using the name '' in request data ...
+2024-10-07 16:09:35.474 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-07 16:09:35.482 -03:00 [DBG] Connection id "0HN770E5D2SVN", Request id "0HN770E5D2SVN:00000001": started reading request body.
+2024-10-07 16:09:35.484 -03:00 [DBG] Connection id "0HN770E5D2SVN", Request id "0HN770E5D2SVN:00000001": done reading request body.
+2024-10-07 16:09:35.492 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'
+2024-10-07 16:09:35.494 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:09:35.495 -03:00 [DBG] Done attempting to bind parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:09:35.497 -03:00 [DBG] Attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO' ...
+2024-10-07 16:09:35.507 -03:00 [DBG] Done attempting to validate the bound parameter 'requestUserDTO' of type 'SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO'.
+2024-10-07 16:09:57.899 -03:00 [DBG] Entity Framework Core 8.0.8 initialized 'AppDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql:8.0.2' with options: ServerVersion=8.0.39-mysql 
+2024-10-07 16:09:57.943 -03:00 [DBG] 'AppDbContext' generated a temporary value for the property 'UserModel.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:09:58.016 -03:00 [DBG] Context 'AppDbContext' started tracking 'UserModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:09:58.534 -03:00 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-07 16:09:58.539 -03:00 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-07 16:09:58.558 -03:00 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-07 16:09:58.641 -03:00 [DBG] Creating DbConnection.
+2024-10-07 16:09:58.650 -03:00 [DBG] Created DbConnection. (5ms).
+2024-10-07 16:09:58.655 -03:00 [DBG] Opening connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:09:58.740 -03:00 [DBG] Opened connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:09:58.746 -03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-07 16:09:58.790 -03:00 [DBG] Began transaction with isolation level 'Unspecified'.
+2024-10-07 16:09:58.801 -03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-07 16:09:58.806 -03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-10-07 16:09:58.831 -03:00 [DBG] Initialized DbCommand for 'ExecuteReader' (28ms).
+2024-10-07 16:09:58.842 -03:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:09:58.891 -03:00 [INF] Executed DbCommand (50ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO `Users` (`DateAlteration`, `DateCreate`, `Matricula`, `PasswordHash`, `UserName`, `acesso`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT `Id`
+FROM `Users`
+WHERE ROW_COUNT() = 1 AND `Id` = LAST_INSERT_ID();
+2024-10-07 16:09:58.910 -03:00 [DBG] The foreign key property 'UserModel.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-07 16:09:58.920 -03:00 [DBG] Closing data reader to 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:09:58.930 -03:00 [DBG] A data reader for 'CadastroProductsDB' on server 'localhost' is being disposed after spending 29ms reading results.
+2024-10-07 16:09:58.937 -03:00 [DBG] Committing transaction.
+2024-10-07 16:09:58.944 -03:00 [DBG] Committed transaction.
+2024-10-07 16:09:58.950 -03:00 [DBG] Closing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:09:58.955 -03:00 [DBG] Closed connection to database 'CadastroProductsDB' on server 'localhost' (5ms).
+2024-10-07 16:09:58.958 -03:00 [DBG] Disposing transaction.
+2024-10-07 16:09:58.970 -03:00 [DBG] An entity of type 'UserModel' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-07 16:09:58.973 -03:00 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-10-07 16:10:02.605 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-07 16:10:02.609 -03:00 [DBG] No information found on request to perform content negotiation.
+2024-10-07 16:10:02.610 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-07 16:10:02.611 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-07 16:10:02.613 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-07 16:10:02.616 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'SistemaDeCadastro.Models.ModelsDTO.ResponseUserDTO'.
+2024-10-07 16:10:02.667 -03:00 [DBG] Found the endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] for address (id=[5],action=[GetById],controller=[User])
+2024-10-07 16:10:02.673 -03:00 [DBG] Successfully processed template api/User/{id} for SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro) resulting in /api/User/5 and 
+2024-10-07 16:10:02.676 -03:00 [DBG] Link generation succeeded for endpoints ["SistemaDeCadastro.Controllers.UserController.GetById (SistemaDeCadastro)"] with result /api/User/5
+2024-10-07 16:10:06.272 -03:00 [INF] Executed action SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro) in 31151.5456ms
+2024-10-07 16:10:06.274 -03:00 [INF] Executed endpoint 'SistemaDeCadastro.Controllers.UserController.CreateUser (SistemaDeCadastro)'
+2024-10-07 16:10:07.899 -03:00 [DBG] Connection id "0HN770E5D2SVN" completed keep alive response.
+2024-10-07 16:10:07.903 -03:00 [DBG] 'AppDbContext' disposed.
+2024-10-07 16:10:07.908 -03:00 [DBG] Disposing connection to database 'CadastroProductsDB' on server 'localhost'.
+2024-10-07 16:10:07.911 -03:00 [DBG] Disposed connection to database 'CadastroProductsDB' on server 'localhost' (3ms).
+2024-10-07 16:10:07.914 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/User - 201 null application/json; charset=utf-8 32876.5016ms

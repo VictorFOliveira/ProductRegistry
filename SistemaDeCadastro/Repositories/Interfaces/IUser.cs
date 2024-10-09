@@ -7,6 +7,8 @@ namespace SistemaDeCadastro.Repositories.Interfaces
     {
         Task<ResponseUserDTO> Criar(RequestUserDTO requestUserDTO);
         Task<ResponseUserDTO> GetById(int id);
+        Task<UserModel> GetUserByUserNameAsync(string userName);
+        Task<UserModel> RemoverAcesso(int id);
 
     }
 }

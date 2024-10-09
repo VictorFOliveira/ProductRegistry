@@ -40,6 +40,10 @@ namespace SistemaDeCadastro.Mapper
                 Id = userModel.Id,
                 UserName = userModel.UserName,
                 acesso = userModel.acesso,
+                Matricula = userModel.Matricula,
+                DateCreate = userModel.DateCreate,
+                DateAlteration = userModel.DateAlteration,
+                UltimaAlteracaoPor = userModel.UltimaAlteracaoPor
             };
         }
 

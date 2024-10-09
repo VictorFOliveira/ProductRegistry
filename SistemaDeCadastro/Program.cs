@@ -6,6 +6,10 @@ using SistemaDeCadastro.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+
 
 namespace SistemaDeCadastro
 {
@@ -30,6 +34,29 @@ namespace SistemaDeCadastro
                     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
                     ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
 
+
+                builder.Services.AddAuthentication(options =>
+                {
+                    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+                        ValidAudience = builder.Configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+                    };
+                });
+
+
+
+                builder.Services.AddHttpContextAccessor();
                 builder.Services.AddControllers();
                 builder.Services.AddEndpointsApiExplorer();
                 builder.Services.AddSwaggerGen(options =>
@@ -57,7 +84,16 @@ namespace SistemaDeCadastro
                     {
                         Log.Error(ex, "Um erro ocorreu durante a execução da requisição.");
                         context.Response.StatusCode = StatusCodes.Status500InternalServerError;
-                        await context.Response.WriteAsync("Ocorreu um erro.");
+                        context.Response.ContentType = "application/json";
+
+                        var errorResponse = new
+                        {
+                            StatusCode = context.Response.StatusCode,
+                            Message = "Ocorreu um erro interno no servidor.",
+                            Detail = ex.Message 
+                        };
+
+                        await context.Response.WriteAsJsonAsync(errorResponse);
                     }
                 });
 
@@ -73,6 +109,7 @@ namespace SistemaDeCadastro
                     });
                 }
 
+                app.UseAuthentication();
                 app.UseAuthorization();
                 app.MapControllers();
                 app.Run();

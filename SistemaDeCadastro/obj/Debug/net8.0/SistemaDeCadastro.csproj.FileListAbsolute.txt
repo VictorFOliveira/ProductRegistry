@@ -262,3 +262,6 @@ C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\obj\Debug\net8.0\SistemaDeCadastro.sourcelink.json
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\SistemaDeCadastro.xml
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll

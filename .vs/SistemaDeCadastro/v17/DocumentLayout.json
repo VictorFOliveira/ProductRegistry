@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Migrations\\20241007164739_addUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaDeCadastro\\Migrations\\20241007164739_addUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +19,12 @@
       "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\validation\\validationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\models\\modelsdto\\responseuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\models\\modelsdto\\responseuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241007164739_addUser.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Migrations\\20241007164739_addUser.cs",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\Migrations\\20241007164739_addUser.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Migrations\\20241007164739_addUser.cs",
-              "RelativeToolTip": "SistemaDeCadastro\\Migrations\\20241007164739_addUser.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:47:39.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\appsettings.json",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\appsettings.json",
-              "RelativeToolTip": "SistemaDeCadastro\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-07T16:45:14.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\Program.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Program.cs",
-              "RelativeToolTip": "SistemaDeCadastro\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwEkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:45:01.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "SistemaDeCadastro\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:43:35.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "SistemaDeCadastro\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:39:10.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Mapper\\UserMapper.cs",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\Mapper\\UserMapper.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Mapper\\UserMapper.cs",
-              "RelativeToolTip": "SistemaDeCadastro\\Mapper\\UserMapper.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:37:32.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ValidationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Validation\\ValidationUser.cs",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\Validation\\ValidationUser.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Validation\\ValidationUser.cs",
-              "RelativeToolTip": "SistemaDeCadastro\\Validation\\ValidationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:33:20.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "SistemaDeCadastro\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:30:34.835Z",
+              "WhenOpened": "2024-10-07T18:38:02.878Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "SistemaDeCadastro\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ResponseUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Models\\ModelsDTO\\ResponseUserDTO.cs",
+              "RelativeDocumentMoniker": "SistemaDeCadastro\\Models\\ModelsDTO\\ResponseUserDTO.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Models\\ModelsDTO\\ResponseUserDTO.cs",
+              "RelativeToolTip": "SistemaDeCadastro\\Models\\ModelsDTO\\ResponseUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:24:40.169Z",
+              "WhenOpened": "2024-10-09T17:52:25.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ValidationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Validation\\ValidationUser.cs",
+              "RelativeDocumentMoniker": "SistemaDeCadastro\\Validation\\ValidationUser.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Validation\\ValidationUser.cs",
+              "RelativeToolTip": "SistemaDeCadastro\\Validation\\ValidationUser.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:39:15.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Mapper\\UserMapper.cs",
+              "RelativeDocumentMoniker": "SistemaDeCadastro\\Mapper\\UserMapper.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Mapper\\UserMapper.cs",
+              "RelativeToolTip": "SistemaDeCadastro\\Mapper\\UserMapper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:39:15.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SistemaDeCadastro\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SistemaDeCadastro\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:39:15.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\UserController.cs",
               "RelativeToolTip": "SistemaDeCadastro\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowDgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:24:27.735Z",
+              "WhenOpened": "2024-10-09T17:39:15.09Z",
               "EditorCaption": ""
             }
           ]

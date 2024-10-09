@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaDeCadastro.Data;
 
@@ -11,9 +12,11 @@ using SistemaDeCadastro.Data;
 namespace SistemaDeCadastro.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241007185726_NewAtributes")]
+    partial class NewAtributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -67,10 +70,6 @@ namespace SistemaDeCadastro.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("PasswordHash")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("UltimaAlteracaoPor")
                         .IsRequired()
                         .HasColumnType("longtext");
 

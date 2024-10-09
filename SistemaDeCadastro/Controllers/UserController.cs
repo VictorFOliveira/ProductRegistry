@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
+using Microsoft.AspNetCore.Mvc;
 using SistemaDeCadastro.Models.ModelsDTO;
 using SistemaDeCadastro.Repositories.Interfaces;
 
@@ -6,6 +8,7 @@ namespace SistemaDeCadastro.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(Roles ="Admin")]
     public class UserController : ControllerBase
     {
         private readonly IUser _userRepository;
@@ -38,6 +41,19 @@ namespace SistemaDeCadastro.Controllers
             }
 
             return Ok(UserId);
+        }
+
+        [HttpPatch("blockAcess/{id}")]
+        public async Task<IActionResult> RemoverAcesso(int id)
+        {
+
+            var alteradopor = User.Identity.Name;
+            var userId = await _userRepository.RemoverAcesso(id);
+            if (userId == null)
+            {
+                return NotFound();
+            }
+            return Ok(userId);
         }
     }
 }

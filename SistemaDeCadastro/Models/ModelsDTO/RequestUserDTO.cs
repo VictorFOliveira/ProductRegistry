@@ -10,5 +10,6 @@ namespace SistemaDeCadastro.Models.ModelsDTO
         [Required]
         public string PasswordHash { get; set; }
         public Acesso  Acesso { get; set; }
+
     }
 }

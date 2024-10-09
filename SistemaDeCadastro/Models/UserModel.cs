@@ -7,8 +7,19 @@ namespace SistemaDeCadastro.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public string UserName { get; set; }
+        [Required]
         public string PasswordHash { get; set; }
+
         public Acesso acesso { get; set; }
+
+        //Atributos para auditoria
+
+        public DateTime DateCreate { get; set; } = DateTime.Now;
+        public DateTime? DateAlteration { get; set; } = null;
+        public string Matricula { get; set; }
+        public string UltimaAlteracaoPor { get; set; }
+
     }
 }
