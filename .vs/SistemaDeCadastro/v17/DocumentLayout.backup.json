@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|c:\\users\\victor\\source\\repos\\sistemadecadastro\\sistemadecadastro\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34ECF154-0902-40CE-B50D-AB9356F4C469}|SistemaDeCadastro\\SistemaDeCadastro.csproj|solutionrelative:sistemadecadastro\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Repositories\\UserRepository.cs",
@@ -55,20 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaDeCadastro\\appsettings.json",
-              "ToolTip": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\appsettings.json",
-              "RelativeToolTip": "SistemaDeCadastro\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-09T18:12:44.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ResponseUserDTO.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Models\\ModelsDTO\\ResponseUserDTO.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Models\\ModelsDTO\\ResponseUserDTO.cs",
@@ -80,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ValidationUser.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Validation\\ValidationUser.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Validation\\ValidationUser.cs",
@@ -92,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UserMapper.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Mapper\\UserMapper.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Mapper\\UserMapper.cs",
@@ -104,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Controllers\\AuthController.cs",
@@ -116,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Victor\\source\\repos\\SistemaDeCadastro\\SistemaDeCadastro\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "SistemaDeCadastro\\Controllers\\UserController.cs",
