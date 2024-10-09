@@ -47,8 +47,7 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAiwC8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T18:38:02.878Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "SistemaDeCadastro\\Models\\ModelsDTO\\ResponseUserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:52:25.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T17:52:25.602Z"
             },
             {
               "$type": "Document",
@@ -73,8 +71,7 @@
               "RelativeToolTip": "SistemaDeCadastro\\Validation\\ValidationUser.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:39:15.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T17:39:15.039Z"
             },
             {
               "$type": "Document",
@@ -86,8 +83,7 @@
               "RelativeToolTip": "SistemaDeCadastro\\Mapper\\UserMapper.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:39:15.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T17:39:15.06Z"
             },
             {
               "$type": "Document",
@@ -99,8 +95,7 @@
               "RelativeToolTip": "SistemaDeCadastro\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAQwDoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T17:39:15.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T17:39:15.076Z"
             },
             {
               "$type": "Document",
