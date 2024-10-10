@@ -23,7 +23,7 @@ namespace SistemaDeCadastro.Repositories
             _httpContexAcessor = httpContexAcessor;
         }
 
-        public async Task<UserModel> RemoverAcesso(int id)
+        public async Task<UserModel> RemoverAcessoRegular(int id)
         {
             UserModel user = await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
             
@@ -46,6 +46,7 @@ namespace SistemaDeCadastro.Repositories
 
             return user;
         }
+
 
         public async Task<ResponseUserDTO> Criar(RequestUserDTO requestUserDTO)
         {
@@ -110,6 +111,25 @@ namespace SistemaDeCadastro.Repositories
             user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
             user.Matricula = GenerateRandomMatricula();
             user.UltimaAlteracaoPor = alteracaoPor;
+        }
+
+        public async Task<UserModel> PermitirAcessoRegular(int id)
+        {
+            var usuarioPermitido = await _context.Users.FirstOrDefaultAsync(x=>x.Id == id);
+
+            var alteracaoPor = _httpContexAcessor.HttpContext?.User.Identity.Name;
+
+            if(usuarioPermitido.acesso == Enum.Acesso.SemAcesso)
+            {
+                usuarioPermitido.acesso = Enum.Acesso.Regular;
+                usuarioPermitido.UltimaAlteracaoPor = alteracaoPor;
+                usuarioPermitido.DateAlteration = DateTime.Now;
+
+                await _context.SaveChangesAsync();
+            }
+
+            return usuarioPermitido;
+
         }
     }
 }

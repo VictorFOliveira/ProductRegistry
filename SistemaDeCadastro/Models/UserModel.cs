@@ -13,12 +13,13 @@ namespace SistemaDeCadastro.Models
         public string PasswordHash { get; set; }
 
         public Acesso acesso { get; set; }
+        public string Matricula { get; set; }
+
 
         //Atributos para auditoria
 
         public DateTime DateCreate { get; set; } = DateTime.Now;
         public DateTime? DateAlteration { get; set; } = null;
-        public string Matricula { get; set; }
         public string UltimaAlteracaoPor { get; set; }
 
     }
