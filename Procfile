@@ -1,0 +1,2 @@
+web: dotnet YourApp.dll
+

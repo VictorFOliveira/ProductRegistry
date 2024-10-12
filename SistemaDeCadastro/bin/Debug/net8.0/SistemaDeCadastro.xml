@@ -39,6 +39,34 @@
             <param name="id">O ID do produto a ser deletado.</param>
             <returns>Uma resposta indicando a exclusão.</returns>
         </member>
+        <member name="M:SistemaDeCadastro.Controllers.UserController.CreateUser(SistemaDeCadastro.Models.ModelsDTO.RequestUserDTO)">
+            <summary>
+            Cria um novo usuário
+            </summary>
+            <param name="requestUserDTO">Os dados do usuário a ser criado.</param>
+            <returns>O usuário criado.</returns>
+        </member>
+        <member name="M:SistemaDeCadastro.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Obtém um usuário pelo ID
+            </summary>
+            <param name="id">O ID do usuário.</param>
+            <returns>O usuário correspondente ao ID.</returns>
+        </member>
+        <member name="M:SistemaDeCadastro.Controllers.UserController.RemoverAcessoRegular(System.Int32)">
+            <summary>
+            Remove o acesso de um usuário regular
+            </summary>
+            <param name="id">O ID do usuário cujo acesso será removido.</param>
+            <returns>O usuário com acesso removido.</returns>
+        </member>
+        <member name="M:SistemaDeCadastro.Controllers.UserController.PermitirAcessoRegular(System.Int32)">
+            <summary>
+            Permite o acesso a um usuário regular
+            </summary>
+            <param name="id">O ID do usuário cujo acesso será permitido.</param>
+            <returns>O usuário com acesso permitido.</returns>
+        </member>
         <member name="F:SistemaDeCadastro.Enum.Acesso.Admin">
             <summary>
             Acesso total ao sistema

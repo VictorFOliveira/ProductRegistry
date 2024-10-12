@@ -1,0 +1,164 @@
+2024-10-10 11:22:47.868 -03:00 [INF] O Swagger foi inicializado
+2024-10-10 11:22:48.179 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-10 11:22:48.342 -03:00 [DBG] Hosting starting
+2024-10-10 11:22:48.415 -03:00 [INF] User profile is available. Using 'C:\Users\Victor\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-10 11:22:48.430 -03:00 [DBG] Reading data from file 'C:\Users\Victor\AppData\Local\ASP.NET\DataProtection-Keys\key-21a33d63-6c09-4e1e-ba31-74eaf6caf77f.xml'.
+2024-10-10 11:22:48.481 -03:00 [DBG] Found key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f}.
+2024-10-10 11:22:48.499 -03:00 [DBG] Considering key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f} with expiration date 2025-01-06 16:11:37Z as default key.
+2024-10-10 11:22:48.504 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-10 11:22:48.510 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-10 11:22:48.512 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-10 11:22:48.523 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-10 11:22:48.528 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-10 11:22:48.532 -03:00 [DBG] Using key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f} as the default key.
+2024-10-10 11:22:48.535 -03:00 [DBG] Key ring with default key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f} was loaded during application startup.
+2024-10-10 11:22:48.836 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-10 11:22:48.838 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-10 11:22:48.840 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-10 11:22:48.841 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-10 11:22:48.843 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-10 11:22:48.946 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-10 11:22:48.948 -03:00 [INF] Hosting environment: Development
+2024-10-10 11:22:48.949 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-10 11:22:48.951 -03:00 [DBG] Hosting started
+2024-10-10 11:22:49.173 -03:00 [DBG] Connection id "0HN796S2BPI1N" accepted.
+2024-10-10 11:22:49.175 -03:00 [DBG] Connection id "0HN796S2BPI1O" accepted.
+2024-10-10 11:22:49.180 -03:00 [DBG] Connection id "0HN796S2BPI1N" started.
+2024-10-10 11:22:49.194 -03:00 [DBG] Connection id "0HN796S2BPI1O" received FIN.
+2024-10-10 11:22:49.194 -03:00 [DBG] Connection id "0HN796S2BPI1N" received FIN.
+2024-10-10 11:22:49.188 -03:00 [DBG] Connection id "0HN796S2BPI1O" started.
+2024-10-10 11:22:49.284 -03:00 [DBG] Connection id "0HN796S2BPI1N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:22:49.298 -03:00 [DBG] Connection id "0HN796S2BPI1O" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:22:49.305 -03:00 [DBG] Connection id "0HN796S2BPI1N" disconnecting.
+2024-10-10 11:22:49.355 -03:00 [DBG] Connection id "0HN796S2BPI1O" disconnecting.
+2024-10-10 11:22:49.364 -03:00 [DBG] Connection id "0HN796S2BPI1N" stopped.
+2024-10-10 11:22:49.372 -03:00 [DBG] Connection id "0HN796S2BPI1O" stopped.
+2024-10-10 11:22:53.869 -03:00 [DBG] Connection id "0HN796S2BPI1P" accepted.
+2024-10-10 11:22:53.967 -03:00 [DBG] Connection id "0HN796S2BPI1P" started.
+2024-10-10 11:22:53.969 -03:00 [DBG] Connection id "0HN796S2BPI1Q" accepted.
+2024-10-10 11:22:54.256 -03:00 [DBG] Connection id "0HN796S2BPI1Q" started.
+2024-10-10 11:22:54.351 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-10 11:22:54.746 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-10 11:22:54.802 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-10 11:22:54.815 -03:00 [DBG] Request did not match any endpoints
+2024-10-10 11:22:55.090 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-10 11:22:55.098 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-10 11:22:55.146 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-10 11:22:55.152 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-10 11:22:55.162 -03:00 [DBG] Connection id "0HN796S2BPI1P" completed keep alive response.
+2024-10-10 11:22:55.179 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 833.9223ms
+2024-10-10 11:22:55.261 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-10 11:22:55.271 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-10 11:22:55.276 -03:00 [DBG] Connection id "0HN796S2BPI1P" completed keep alive response.
+2024-10-10 11:22:55.636 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 375.5609ms
+2024-10-10 11:22:56.109 -03:00 [DBG] Connection id "0HN796S2BPI1Q" completed keep alive response.
+2024-10-10 11:22:56.114 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 843.1779ms
+2024-10-10 11:22:56.222 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-10 11:22:56.238 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-10 11:22:56.250 -03:00 [DBG] Request did not match any endpoints
+2024-10-10 11:22:56.916 -03:00 [DBG] Connection id "0HN796S2BPI1Q" completed keep alive response.
+2024-10-10 11:22:56.989 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 766.8795ms
+2024-10-10 11:22:58.047 -03:00 [DBG] Connection id "0HN796S2BPI1P" received FIN.
+2024-10-10 11:22:58.047 -03:00 [DBG] Connection id "0HN796S2BPI1Q" received FIN.
+2024-10-10 11:22:58.053 -03:00 [DBG] Connection id "0HN796S2BPI1Q" disconnecting.
+2024-10-10 11:22:58.053 -03:00 [DBG] Connection id "0HN796S2BPI1P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:22:58.054 -03:00 [DBG] Connection id "0HN796S2BPI1Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:22:58.056 -03:00 [DBG] Connection id "0HN796S2BPI1P" disconnecting.
+2024-10-10 11:22:58.067 -03:00 [DBG] Connection id "0HN796S2BPI1P" stopped.
+2024-10-10 11:22:58.067 -03:00 [DBG] Connection id "0HN796S2BPI1Q" stopped.
+2024-10-10 11:24:58.425 -03:00 [DBG] Connection id "0HN796S2BPI1R" accepted.
+2024-10-10 11:24:58.435 -03:00 [DBG] Connection id "0HN796S2BPI1R" started.
+2024-10-10 11:24:58.437 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5128/api/Product - application/json 86
+2024-10-10 11:24:58.446 -03:00 [DBG] 1 candidate(s) found for the request path '/api/Product'
+2024-10-10 11:24:58.450 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.ProductController.CreateProduct (SistemaDeCadastro)' with route pattern 'api/Product' is valid for the request path '/api/Product'
+2024-10-10 11:24:58.452 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.ProductController.CreateProduct (SistemaDeCadastro)'
+2024-10-10 11:24:58.455 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-10 11:24:58.568 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-10 11:24:58.577 -03:00 [DBG] Policy authentication schemes  did not succeed
+2024-10-10 11:24:58.581 -03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-10 11:24:58.586 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-10 11:24:58.588 -03:00 [DBG] Connection id "0HN796S2BPI1R" completed keep alive response.
+2024-10-10 11:24:58.589 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5128/api/Product - 401 0 null 152.5109ms
+2024-10-10 11:24:58.595 -03:00 [DBG] Connection id "0HN796S2BPI1R", Request id "0HN796S2BPI1R:00000001": started reading request body.
+2024-10-10 11:24:58.597 -03:00 [DBG] Connection id "0HN796S2BPI1R", Request id "0HN796S2BPI1R:00000001": done reading request body.
+2024-10-10 11:25:15.979 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Product - null null
+2024-10-10 11:25:15.984 -03:00 [DBG] 1 candidate(s) found for the request path '/api/Product'
+2024-10-10 11:25:15.985 -03:00 [DBG] Endpoint 'SistemaDeCadastro.Controllers.ProductController.GetAllProducts (SistemaDeCadastro)' with route pattern 'api/Product' is valid for the request path '/api/Product'
+2024-10-10 11:25:15.987 -03:00 [DBG] Request matched endpoint 'SistemaDeCadastro.Controllers.ProductController.GetAllProducts (SistemaDeCadastro)'
+2024-10-10 11:25:15.989 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-10 11:25:15.994 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-10 11:25:15.996 -03:00 [DBG] Policy authentication schemes  did not succeed
+2024-10-10 11:25:15.997 -03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Regular)
+2024-10-10 11:25:15.998 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-10 11:25:15.998 -03:00 [DBG] Connection id "0HN796S2BPI1R" completed keep alive response.
+2024-10-10 11:25:15.999 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Product - 401 0 null 20.1351ms
+2024-10-10 11:25:52.778 -03:00 [INF] O Swagger foi inicializado
+2024-10-10 11:25:52.978 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-10 11:25:53.104 -03:00 [DBG] Hosting starting
+2024-10-10 11:25:53.166 -03:00 [INF] User profile is available. Using 'C:\Users\Victor\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-10 11:25:53.180 -03:00 [DBG] Reading data from file 'C:\Users\Victor\AppData\Local\ASP.NET\DataProtection-Keys\key-21a33d63-6c09-4e1e-ba31-74eaf6caf77f.xml'.
+2024-10-10 11:25:53.197 -03:00 [DBG] Found key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f}.
+2024-10-10 11:25:53.214 -03:00 [DBG] Considering key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f} with expiration date 2025-01-06 16:11:37Z as default key.
+2024-10-10 11:25:53.218 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-10 11:25:53.220 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-10 11:25:53.222 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-10 11:25:53.230 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-10 11:25:53.232 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-10 11:25:53.234 -03:00 [DBG] Using key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f} as the default key.
+2024-10-10 11:25:53.236 -03:00 [DBG] Key ring with default key {21a33d63-6c09-4e1e-ba31-74eaf6caf77f} was loaded during application startup.
+2024-10-10 11:25:53.384 -03:00 [INF] Now listening on: http://localhost:5128
+2024-10-10 11:25:53.385 -03:00 [DBG] Loaded hosting startup assembly SistemaDeCadastro
+2024-10-10 11:25:53.387 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-10 11:25:53.387 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-10 11:25:53.388 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-10 11:25:53.444 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-10 11:25:53.445 -03:00 [INF] Hosting environment: Development
+2024-10-10 11:25:53.447 -03:00 [INF] Content root path: C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro
+2024-10-10 11:25:53.447 -03:00 [DBG] Hosting started
+2024-10-10 11:25:53.616 -03:00 [DBG] Connection id "0HN796TPAPEF2" accepted.
+2024-10-10 11:25:53.619 -03:00 [DBG] Connection id "0HN796TPAPEF2" started.
+2024-10-10 11:25:53.622 -03:00 [DBG] Connection id "0HN796TPAPEF3" accepted.
+2024-10-10 11:25:53.624 -03:00 [DBG] Connection id "0HN796TPAPEF3" started.
+2024-10-10 11:25:53.660 -03:00 [DBG] Connection id "0HN796TPAPEF2" received FIN.
+2024-10-10 11:25:53.660 -03:00 [DBG] Connection id "0HN796TPAPEF3" received FIN.
+2024-10-10 11:25:53.668 -03:00 [DBG] Connection id "0HN796TPAPEF3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:25:53.668 -03:00 [DBG] Connection id "0HN796TPAPEF2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:25:53.672 -03:00 [DBG] Connection id "0HN796TPAPEF3" disconnecting.
+2024-10-10 11:25:53.672 -03:00 [DBG] Connection id "0HN796TPAPEF2" disconnecting.
+2024-10-10 11:25:53.688 -03:00 [DBG] Connection id "0HN796TPAPEF2" stopped.
+2024-10-10 11:25:53.688 -03:00 [DBG] Connection id "0HN796TPAPEF3" stopped.
+2024-10-10 11:25:54.830 -03:00 [DBG] Connection id "0HN796TPAPEF4" accepted.
+2024-10-10 11:25:54.881 -03:00 [DBG] Connection id "0HN796TPAPEF5" accepted.
+2024-10-10 11:25:54.881 -03:00 [DBG] Connection id "0HN796TPAPEF4" started.
+2024-10-10 11:25:55.108 -03:00 [DBG] Connection id "0HN796TPAPEF5" started.
+2024-10-10 11:25:55.208 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/index.html - null null
+2024-10-10 11:25:55.565 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-10 11:25:55.603 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-10 11:25:55.605 -03:00 [DBG] Request did not match any endpoints
+2024-10-10 11:25:55.717 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-10 11:25:55.720 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-10 11:25:55.742 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-10 11:25:55.744 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-10 11:25:55.745 -03:00 [DBG] Connection id "0HN796TPAPEF4" completed keep alive response.
+2024-10-10 11:25:55.750 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/index.html - 200 null text/html;charset=utf-8 556.7219ms
+2024-10-10 11:25:55.864 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-10 11:25:55.867 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/_vs/browserLink - null null
+2024-10-10 11:25:55.939 -03:00 [DBG] Connection id "0HN796TPAPEF4" completed keep alive response.
+2024-10-10 11:25:55.984 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 118.9175ms
+2024-10-10 11:25:56.068 -03:00 [DBG] Connection id "0HN796TPAPEF5" completed keep alive response.
+2024-10-10 11:25:56.072 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/_vs/browserLink - 200 null text/javascript; charset=UTF-8 203.7822ms
+2024-10-10 11:25:56.165 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2024-10-10 11:25:56.170 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-10 11:25:56.172 -03:00 [DBG] Request did not match any endpoints
+2024-10-10 11:25:56.417 -03:00 [DBG] Connection id "0HN796TPAPEF5" completed keep alive response.
+2024-10-10 11:25:56.419 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 253.8843ms
+2024-10-10 11:25:59.007 -03:00 [DBG] Connection id "0HN796TPAPEF4" received FIN.
+2024-10-10 11:25:59.007 -03:00 [DBG] Connection id "0HN796TPAPEF5" received FIN.
+2024-10-10 11:25:59.012 -03:00 [DBG] Connection id "0HN796TPAPEF4" disconnecting.
+2024-10-10 11:25:59.012 -03:00 [DBG] Connection id "0HN796TPAPEF5" disconnecting.
+2024-10-10 11:25:59.014 -03:00 [DBG] Connection id "0HN796TPAPEF4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:25:59.015 -03:00 [DBG] Connection id "0HN796TPAPEF5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-10 11:25:59.021 -03:00 [DBG] Connection id "0HN796TPAPEF5" stopped.
+2024-10-10 11:25:59.022 -03:00 [DBG] Connection id "0HN796TPAPEF4" stopped.

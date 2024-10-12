@@ -5,7 +5,6 @@ C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\obj\Debug\net8.
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\obj\Debug\net8.0\SistemaDeCadastro.csproj.CoreCompileInputs.cache
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\obj\Debug\net8.0\SistemaDeCadastro.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\obj\Debug\net8.0\SistemaDeCadastro.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\appsettings.json
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\SistemaDeCadastro.exe
 C:\Users\Victor\source\repos\SistemaDeCadastro\SistemaDeCadastro\bin\Debug\net8.0\SistemaDeCadastro.deps.json
