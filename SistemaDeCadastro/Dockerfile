@@ -1,4 +1,4 @@
-# Usar a imagem base do .NET SDK
+# Usar a imagem base do .NET SDK 8.0
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 
 # Definir o diretório de trabalho
